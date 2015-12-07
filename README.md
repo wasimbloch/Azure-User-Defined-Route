@@ -12,8 +12,11 @@ Below are the parameters that the template expects.
 
 | Name   | Description    |
 |:--- |:---|
-| location | Location for the deployment |
-| newStorageAccountName | name of the standard storage account, defaults to Standard_LRS |
-| adminUsername | Admin user Name for the VMs |
-| uniqueDnsPrefixForVM | Address prefix for the Virtual Network specified in CIDR format |
-| vmNamePrefix | Address prefix for the Virtual Machine |
+| LOCATION | Location for the deployment |
+| NEWSTORAGEACCOUNTNAME | name of the standard storage account, defaults to Standard_LRS |
+| ADMINUSERNAME | Admin user Name for the RDP to VMs |
+| ADMINPASSWORD | Admin Password for the RDP to VMs |
+| UNIQUEDNSPREFIXFORVM | Address prefix for the Virtual Network specified in CIDR format |
+| VMNAMEPREFIX | Address prefix for the Virtual Machine |
+| PUBLICIPADDRESSTYPE | Public IP Address - use default value |
+| WINDOWSOSVERSION | Windows OS version - use default value |
